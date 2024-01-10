@@ -3,6 +3,7 @@
 function that Define filter_datum & returns an obfuscated log message
 """
 import re
+from typing import List
 
 
 def filter_datum(fields: List[str], redaction: str,
