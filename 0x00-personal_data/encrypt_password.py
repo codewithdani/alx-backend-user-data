@@ -3,6 +3,7 @@
 Define a hash_password function & return a hashed password
 """
 import bcrypt
+from bcrypt import hashpw
 
 
 def hash_password(password: str) -> bytes:
