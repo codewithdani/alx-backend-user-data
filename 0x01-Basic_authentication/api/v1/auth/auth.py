@@ -45,7 +45,6 @@ class Auth:
             return None
         return header
 
-
     def current_user(self, request=None) -> TypeVar('User'):
         """
         Returns a User instance from information from a request object
