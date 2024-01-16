@@ -5,6 +5,7 @@ Definition of class BasicAuth
 import base64
 from .auth import Auth
 from models.user import User
+from typing import TypeVar
 
 
 class BasicAuth(Auth):
