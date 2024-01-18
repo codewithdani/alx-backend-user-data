@@ -23,3 +23,4 @@ class SessionAuth(Auth):
         id = uuid4()
         self.user_id_by_session_id[str(id)] = user_id
         return str(id)
+    
