@@ -3,6 +3,7 @@
 Definition of class SessionAuth
 """
 from .auth import Auth
+from uuid import uuid4
 
 
 class SessionAuth(Auth):
